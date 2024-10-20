@@ -1,0 +1,8 @@
+H:\.NET\Day2_Assignment\Day2_Assignment\bin\Debug\Day2_Assignment.exe.config
+H:\.NET\Day2_Assignment\Day2_Assignment\bin\Debug\Day2_Assignment.exe
+H:\.NET\Day2_Assignment\Day2_Assignment\bin\Debug\Day2_Assignment.pdb
+H:\.NET\Day2_Assignment\Day2_Assignment\obj\Debug\Day2_Assignment.csproj.AssemblyReference.cache
+H:\.NET\Day2_Assignment\Day2_Assignment\obj\Debug\Day2_Assignment.csproj.SuggestedBindingRedirects.cache
+H:\.NET\Day2_Assignment\Day2_Assignment\obj\Debug\Day2_Assignment.csproj.CoreCompileInputs.cache
+H:\.NET\Day2_Assignment\Day2_Assignment\obj\Debug\Day2_Assignment.exe
+H:\.NET\Day2_Assignment\Day2_Assignment\obj\Debug\Day2_Assignment.pdb

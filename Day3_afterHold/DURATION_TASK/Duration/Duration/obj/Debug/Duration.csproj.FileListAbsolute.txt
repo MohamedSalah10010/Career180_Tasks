@@ -1,0 +1,6 @@
+H:\.NET\Duration\Duration\bin\Debug\Duration.dll
+H:\.NET\Duration\Duration\bin\Debug\Duration.pdb
+H:\.NET\Duration\Duration\obj\Debug\Duration.csproj.AssemblyReference.cache
+H:\.NET\Duration\Duration\obj\Debug\Duration.csproj.CoreCompileInputs.cache
+H:\.NET\Duration\Duration\obj\Debug\Duration.dll
+H:\.NET\Duration\Duration\obj\Debug\Duration.pdb

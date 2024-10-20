@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_employee_sortArray", "Task_employee_sortArray\Task_employee_sortArray.csproj", "{19B4FFBB-06F8-46EE-ABA8-B3E7D1AEA4D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19B4FFBB-06F8-46EE-ABA8-B3E7D1AEA4D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B4FFBB-06F8-46EE-ABA8-B3E7D1AEA4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B4FFBB-06F8-46EE-ABA8-B3E7D1AEA4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B4FFBB-06F8-46EE-ABA8-B3E7D1AEA4D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3B64B5D-9144-4CF1-821F-136A5ABA21B4}
+	EndGlobalSection
+EndGlobal

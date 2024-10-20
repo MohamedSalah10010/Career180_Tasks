@@ -1,0 +1,11 @@
+H:\.NET\Test_student\Test_student\bin\Debug\Test_student.exe.config
+H:\.NET\Test_student\Test_student\bin\Debug\Test_student.exe
+H:\.NET\Test_student\Test_student\bin\Debug\Test_student.pdb
+H:\.NET\Test_student\Test_student\bin\Debug\Student.dll
+H:\.NET\Test_student\Test_student\bin\Debug\Student.pdb
+H:\.NET\Test_student\Test_student\obj\Debug\Test_student.csproj.AssemblyReference.cache
+H:\.NET\Test_student\Test_student\obj\Debug\Test_student.csproj.SuggestedBindingRedirects.cache
+H:\.NET\Test_student\Test_student\obj\Debug\Test_student.csproj.CoreCompileInputs.cache
+H:\.NET\Test_student\Test_student\obj\Debug\Test_student.csproj.CopyComplete
+H:\.NET\Test_student\Test_student\obj\Debug\Test_student.exe
+H:\.NET\Test_student\Test_student\obj\Debug\Test_student.pdb

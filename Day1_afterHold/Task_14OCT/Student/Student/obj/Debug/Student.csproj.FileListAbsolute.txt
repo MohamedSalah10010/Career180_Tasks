@@ -1,0 +1,6 @@
+H:\.NET\Student\Student\bin\Debug\Student.dll
+H:\.NET\Student\Student\bin\Debug\Student.pdb
+H:\.NET\Student\Student\obj\Debug\Student.csproj.AssemblyReference.cache
+H:\.NET\Student\Student\obj\Debug\Student.csproj.CoreCompileInputs.cache
+H:\.NET\Student\Student\obj\Debug\Student.dll
+H:\.NET\Student\Student\obj\Debug\Student.pdb

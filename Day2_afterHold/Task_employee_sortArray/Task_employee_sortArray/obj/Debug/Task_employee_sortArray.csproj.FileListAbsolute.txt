@@ -1,0 +1,11 @@
+H:\.NET\Task_employee_sortArray\Task_employee_sortArray\bin\Debug\Task_employee_sortArray.exe.config
+H:\.NET\Task_employee_sortArray\Task_employee_sortArray\bin\Debug\Task_employee_sortArray.exe
+H:\.NET\Task_employee_sortArray\Task_employee_sortArray\bin\Debug\Task_employee_sortArray.pdb
+H:\.NET\Task_employee_sortArray\Task_employee_sortArray\bin\Debug\Employee.dll
+H:\.NET\Task_employee_sortArray\Task_employee_sortArray\bin\Debug\Employee.pdb
+H:\.NET\Task_employee_sortArray\Task_employee_sortArray\obj\Debug\Task_employee_sortArray.csproj.AssemblyReference.cache
+H:\.NET\Task_employee_sortArray\Task_employee_sortArray\obj\Debug\Task_employee_sortArray.csproj.SuggestedBindingRedirects.cache
+H:\.NET\Task_employee_sortArray\Task_employee_sortArray\obj\Debug\Task_employee_sortArray.csproj.CoreCompileInputs.cache
+H:\.NET\Task_employee_sortArray\Task_employee_sortArray\obj\Debug\Task_employee_sortArray.csproj.CopyComplete
+H:\.NET\Task_employee_sortArray\Task_employee_sortArray\obj\Debug\Task_employee_sortArray.exe
+H:\.NET\Task_employee_sortArray\Task_employee_sortArray\obj\Debug\Task_employee_sortArray.pdb

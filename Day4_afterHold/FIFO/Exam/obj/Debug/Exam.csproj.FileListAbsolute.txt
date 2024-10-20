@@ -1,0 +1,8 @@
+H:\.NET\FIFO\Exam\bin\Debug\Exam.exe.config
+H:\.NET\FIFO\Exam\bin\Debug\Exam.exe
+H:\.NET\FIFO\Exam\bin\Debug\Exam.pdb
+H:\.NET\FIFO\Exam\obj\Debug\Exam.csproj.AssemblyReference.cache
+H:\.NET\FIFO\Exam\obj\Debug\Exam.csproj.SuggestedBindingRedirects.cache
+H:\.NET\FIFO\Exam\obj\Debug\Exam.csproj.CoreCompileInputs.cache
+H:\.NET\FIFO\Exam\obj\Debug\Exam.exe
+H:\.NET\FIFO\Exam\obj\Debug\Exam.pdb

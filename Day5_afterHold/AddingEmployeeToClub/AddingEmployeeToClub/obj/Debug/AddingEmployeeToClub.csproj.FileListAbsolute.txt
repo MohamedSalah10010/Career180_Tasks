@@ -1,0 +1,8 @@
+H:\.NET\AddingEmployeeToClub\AddingEmployeeToClub\bin\Debug\AddingEmployeeToClub.exe.config
+H:\.NET\AddingEmployeeToClub\AddingEmployeeToClub\bin\Debug\AddingEmployeeToClub.exe
+H:\.NET\AddingEmployeeToClub\AddingEmployeeToClub\bin\Debug\AddingEmployeeToClub.pdb
+H:\.NET\AddingEmployeeToClub\AddingEmployeeToClub\obj\Debug\AddingEmployeeToClub.csproj.AssemblyReference.cache
+H:\.NET\AddingEmployeeToClub\AddingEmployeeToClub\obj\Debug\AddingEmployeeToClub.csproj.SuggestedBindingRedirects.cache
+H:\.NET\AddingEmployeeToClub\AddingEmployeeToClub\obj\Debug\AddingEmployeeToClub.csproj.CoreCompileInputs.cache
+H:\.NET\AddingEmployeeToClub\AddingEmployeeToClub\obj\Debug\AddingEmployeeToClub.exe
+H:\.NET\AddingEmployeeToClub\AddingEmployeeToClub\obj\Debug\AddingEmployeeToClub.pdb

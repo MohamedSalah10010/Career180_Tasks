@@ -1,0 +1,11 @@
+H:\.NET\Employee\Employee Array\bin\Debug\Employee Array.exe.config
+H:\.NET\Employee\Employee Array\bin\Debug\Employee Array.exe
+H:\.NET\Employee\Employee Array\bin\Debug\Employee Array.pdb
+H:\.NET\Employee\Employee Array\bin\Debug\Employee.dll
+H:\.NET\Employee\Employee Array\bin\Debug\Employee.pdb
+H:\.NET\Employee\Employee Array\obj\Debug\Employee Array.csproj.AssemblyReference.cache
+H:\.NET\Employee\Employee Array\obj\Debug\Employee Array.csproj.SuggestedBindingRedirects.cache
+H:\.NET\Employee\Employee Array\obj\Debug\Employee Array.csproj.CoreCompileInputs.cache
+H:\.NET\Employee\Employee Array\obj\Debug\Employee Array.csproj.CopyComplete
+H:\.NET\Employee\Employee Array\obj\Debug\Employee Array.exe
+H:\.NET\Employee\Employee Array\obj\Debug\Employee Array.pdb

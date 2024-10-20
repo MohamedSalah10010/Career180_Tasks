@@ -1,0 +1,8 @@
+H:\.NET\FIFO\FIFO\bin\Debug\FIFO.exe.config
+H:\.NET\FIFO\FIFO\bin\Debug\FIFO.exe
+H:\.NET\FIFO\FIFO\bin\Debug\FIFO.pdb
+H:\.NET\FIFO\FIFO\obj\Debug\FIFO.csproj.AssemblyReference.cache
+H:\.NET\FIFO\FIFO\obj\Debug\FIFO.csproj.SuggestedBindingRedirects.cache
+H:\.NET\FIFO\FIFO\obj\Debug\FIFO.csproj.CoreCompileInputs.cache
+H:\.NET\FIFO\FIFO\obj\Debug\FIFO.exe
+H:\.NET\FIFO\FIFO\obj\Debug\FIFO.pdb

@@ -1,0 +1,8 @@
+H:\.NET\Rental movie manager\Rental movie manager\obj\Debug\Rental movie manager.csproj.AssemblyReference.cache
+H:\.NET\Rental movie manager\Rental movie manager\obj\Debug\Rental movie manager.csproj.SuggestedBindingRedirects.cache
+H:\.NET\Rental movie manager\Rental movie manager\obj\Debug\Rental movie manager.csproj.CoreCompileInputs.cache
+H:\.NET\Rental movie manager\Rental movie manager\bin\Debug\Rental movie manager.exe.config
+H:\.NET\Rental movie manager\Rental movie manager\bin\Debug\Rental movie manager.exe
+H:\.NET\Rental movie manager\Rental movie manager\bin\Debug\Rental movie manager.pdb
+H:\.NET\Rental movie manager\Rental movie manager\obj\Debug\Rental movie manager.exe
+H:\.NET\Rental movie manager\Rental movie manager\obj\Debug\Rental movie manager.pdb

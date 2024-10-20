@@ -1,0 +1,16 @@
+H:\.NET\Assignment1_encryption\Assignment1_encryption\obj\Debug\Assignment1_encryption.csproj.AssemblyReference.cache
+H:\.NET\Assignment1_encryption\Assignment1_encryption\obj\Debug\Assignment1_encryption.csproj.SuggestedBindingRedirects.cache
+H:\.NET\Assignment1_encryption\Assignment1_encryption\obj\Debug\Assignment1_encryption.csproj.CoreCompileInputs.cache
+H:\.NET\Assignment1_encryption\Assignment1_encryption\bin\Debug\Assignment1_encryption.exe.config
+H:\.NET\Assignment1_encryption\Assignment1_encryption\bin\Debug\Assignment1_encryption.exe
+H:\.NET\Assignment1_encryption\Assignment1_encryption\bin\Debug\Assignment1_encryption.pdb
+H:\.NET\Assignment1_encryption\Assignment1_encryption\obj\Debug\Assignment1_encryption.exe
+H:\.NET\Assignment1_encryption\Assignment1_encryption\obj\Debug\Assignment1_encryption.pdb
+H:\.NET\Week1\Assignment1_encryption\Assignment1_encryption\bin\Debug\Assignment1_encryption.exe.config
+H:\.NET\Week1\Assignment1_encryption\Assignment1_encryption\bin\Debug\Assignment1_encryption.exe
+H:\.NET\Week1\Assignment1_encryption\Assignment1_encryption\bin\Debug\Assignment1_encryption.pdb
+H:\.NET\Week1\Assignment1_encryption\Assignment1_encryption\obj\Debug\Assignment1_encryption.csproj.AssemblyReference.cache
+H:\.NET\Week1\Assignment1_encryption\Assignment1_encryption\obj\Debug\Assignment1_encryption.csproj.SuggestedBindingRedirects.cache
+H:\.NET\Week1\Assignment1_encryption\Assignment1_encryption\obj\Debug\Assignment1_encryption.csproj.CoreCompileInputs.cache
+H:\.NET\Week1\Assignment1_encryption\Assignment1_encryption\obj\Debug\Assignment1_encryption.exe
+H:\.NET\Week1\Assignment1_encryption\Assignment1_encryption\obj\Debug\Assignment1_encryption.pdb

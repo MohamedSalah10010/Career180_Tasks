@@ -1,0 +1,8 @@
+H:\.NET\Assignment1_Calc_using_switch\Assignment1_Calc_using_switch\obj\Debug\Assignment1_Calc_using_switch.csproj.AssemblyReference.cache
+H:\.NET\Assignment1_Calc_using_switch\Assignment1_Calc_using_switch\obj\Debug\Assignment1_Calc_using_switch.csproj.SuggestedBindingRedirects.cache
+H:\.NET\Assignment1_Calc_using_switch\Assignment1_Calc_using_switch\obj\Debug\Assignment1_Calc_using_switch.csproj.CoreCompileInputs.cache
+H:\.NET\Assignment1_Calc_using_switch\Assignment1_Calc_using_switch\bin\Debug\Assignment1_Calc_using_switch.exe.config
+H:\.NET\Assignment1_Calc_using_switch\Assignment1_Calc_using_switch\bin\Debug\Assignment1_Calc_using_switch.exe
+H:\.NET\Assignment1_Calc_using_switch\Assignment1_Calc_using_switch\bin\Debug\Assignment1_Calc_using_switch.pdb
+H:\.NET\Assignment1_Calc_using_switch\Assignment1_Calc_using_switch\obj\Debug\Assignment1_Calc_using_switch.exe
+H:\.NET\Assignment1_Calc_using_switch\Assignment1_Calc_using_switch\obj\Debug\Assignment1_Calc_using_switch.pdb
