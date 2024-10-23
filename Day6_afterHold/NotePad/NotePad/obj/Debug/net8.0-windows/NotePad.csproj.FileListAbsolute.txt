@@ -1,0 +1,17 @@
+H:\.NET\Career180_Tasks\Day6_afterHold\NotePad\NotePad\bin\Debug\net8.0-windows\NotePad.exe
+H:\.NET\Career180_Tasks\Day6_afterHold\NotePad\NotePad\bin\Debug\net8.0-windows\NotePad.deps.json
+H:\.NET\Career180_Tasks\Day6_afterHold\NotePad\NotePad\bin\Debug\net8.0-windows\NotePad.runtimeconfig.json
+H:\.NET\Career180_Tasks\Day6_afterHold\NotePad\NotePad\bin\Debug\net8.0-windows\NotePad.dll
+H:\.NET\Career180_Tasks\Day6_afterHold\NotePad\NotePad\bin\Debug\net8.0-windows\NotePad.pdb
+H:\.NET\Career180_Tasks\Day6_afterHold\NotePad\NotePad\obj\Debug\net8.0-windows\NotePad.csproj.GenerateResource.cache
+H:\.NET\Career180_Tasks\Day6_afterHold\NotePad\NotePad\obj\Debug\net8.0-windows\NotePad.GeneratedMSBuildEditorConfig.editorconfig
+H:\.NET\Career180_Tasks\Day6_afterHold\NotePad\NotePad\obj\Debug\net8.0-windows\NotePad.AssemblyInfoInputs.cache
+H:\.NET\Career180_Tasks\Day6_afterHold\NotePad\NotePad\obj\Debug\net8.0-windows\NotePad.AssemblyInfo.cs
+H:\.NET\Career180_Tasks\Day6_afterHold\NotePad\NotePad\obj\Debug\net8.0-windows\NotePad.csproj.CoreCompileInputs.cache
+H:\.NET\Career180_Tasks\Day6_afterHold\NotePad\NotePad\obj\Debug\net8.0-windows\NotePad.sourcelink.json
+H:\.NET\Career180_Tasks\Day6_afterHold\NotePad\NotePad\obj\Debug\net8.0-windows\NotePad.dll
+H:\.NET\Career180_Tasks\Day6_afterHold\NotePad\NotePad\obj\Debug\net8.0-windows\refint\NotePad.dll
+H:\.NET\Career180_Tasks\Day6_afterHold\NotePad\NotePad\obj\Debug\net8.0-windows\NotePad.pdb
+H:\.NET\Career180_Tasks\Day6_afterHold\NotePad\NotePad\obj\Debug\net8.0-windows\NotePad.genruntimeconfig.cache
+H:\.NET\Career180_Tasks\Day6_afterHold\NotePad\NotePad\obj\Debug\net8.0-windows\ref\NotePad.dll
+H:\.NET\Career180_Tasks\Day6_afterHold\NotePad\NotePad\obj\Debug\net8.0-windows\NotePad.Notepad.resources

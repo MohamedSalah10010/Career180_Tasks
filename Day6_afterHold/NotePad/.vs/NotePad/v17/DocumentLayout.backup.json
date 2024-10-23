@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\.NET\\Career180_Tasks\\Day6_afterHold\\NotePad\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5D9197-E85B-4A0E-A41F-E6DA97D4E19C}|NotePad\\NotePad.csproj|h:\\.net\\career180_tasks\\day6_afterhold\\notepad\\notepad\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5D9197-E85B-4A0E-A41F-E6DA97D4E19C}|NotePad\\NotePad.csproj|solutionrelative:notepad\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5D9197-E85B-4A0E-A41F-E6DA97D4E19C}|NotePad\\NotePad.csproj|h:\\.net\\career180_tasks\\day6_afterhold\\notepad\\notepad\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5A5D9197-E85B-4A0E-A41F-E6DA97D4E19C}|NotePad\\NotePad.csproj|solutionrelative:notepad\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5D9197-E85B-4A0E-A41F-E6DA97D4E19C}|NotePad\\NotePad.csproj|h:\\.net\\career180_tasks\\day6_afterhold\\notepad\\notepad\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5D9197-E85B-4A0E-A41F-E6DA97D4E19C}|NotePad\\NotePad.csproj|solutionrelative:notepad\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5D9197-E85B-4A0E-A41F-E6DA97D4E19C}|NotePad\\NotePad.csproj|h:\\.net\\career180_tasks\\day6_afterhold\\notepad\\notepad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5D9197-E85B-4A0E-A41F-E6DA97D4E19C}|NotePad\\NotePad.csproj|solutionrelative:notepad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "H:\\.NET\\Career180_Tasks\\Day6_afterHold\\NotePad\\NotePad\\Form1.cs",
+              "RelativeDocumentMoniker": "NotePad\\Form1.cs",
+              "ToolTip": "H:\\.NET\\Career180_Tasks\\Day6_afterHold\\NotePad\\NotePad\\Form1.cs*",
+              "RelativeToolTip": "NotePad\\Form1.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T19:10:13.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "H:\\.NET\\Career180_Tasks\\Day6_afterHold\\NotePad\\NotePad\\Form1.cs",
+              "RelativeDocumentMoniker": "NotePad\\Form1.cs",
+              "ToolTip": "H:\\.NET\\Career180_Tasks\\Day6_afterHold\\NotePad\\NotePad\\Form1.cs [Design]*",
+              "RelativeToolTip": "NotePad\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T19:09:11.338Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "H:\\.NET\\Career180_Tasks\\Day6_afterHold\\NotePad\\NotePad\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "NotePad\\Form1.Designer.cs",
+              "ToolTip": "H:\\.NET\\Career180_Tasks\\Day6_afterHold\\NotePad\\NotePad\\Form1.Designer.cs",
+              "RelativeToolTip": "NotePad\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T19:07:39.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\.NET\\Career180_Tasks\\Day6_afterHold\\NotePad\\NotePad\\Program.cs",
+              "RelativeDocumentMoniker": "NotePad\\Program.cs",
+              "ToolTip": "H:\\.NET\\Career180_Tasks\\Day6_afterHold\\NotePad\\NotePad\\Program.cs",
+              "RelativeToolTip": "NotePad\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T19:07:20.064Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
