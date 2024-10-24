@@ -1,0 +1,15 @@
+H:\.NET\Career180_Tasks\Day7_afterHold\FTP client Project\FTP client Project\bin\Debug\net8.0\FTP client Project.exe
+H:\.NET\Career180_Tasks\Day7_afterHold\FTP client Project\FTP client Project\bin\Debug\net8.0\FTP client Project.deps.json
+H:\.NET\Career180_Tasks\Day7_afterHold\FTP client Project\FTP client Project\bin\Debug\net8.0\FTP client Project.runtimeconfig.json
+H:\.NET\Career180_Tasks\Day7_afterHold\FTP client Project\FTP client Project\bin\Debug\net8.0\FTP client Project.dll
+H:\.NET\Career180_Tasks\Day7_afterHold\FTP client Project\FTP client Project\bin\Debug\net8.0\FTP client Project.pdb
+H:\.NET\Career180_Tasks\Day7_afterHold\FTP client Project\FTP client Project\obj\Debug\net8.0\FTP client Project.GeneratedMSBuildEditorConfig.editorconfig
+H:\.NET\Career180_Tasks\Day7_afterHold\FTP client Project\FTP client Project\obj\Debug\net8.0\FTP client Project.AssemblyInfoInputs.cache
+H:\.NET\Career180_Tasks\Day7_afterHold\FTP client Project\FTP client Project\obj\Debug\net8.0\FTP client Project.AssemblyInfo.cs
+H:\.NET\Career180_Tasks\Day7_afterHold\FTP client Project\FTP client Project\obj\Debug\net8.0\FTP client Project.csproj.CoreCompileInputs.cache
+H:\.NET\Career180_Tasks\Day7_afterHold\FTP client Project\FTP client Project\obj\Debug\net8.0\FTP client Project.sourcelink.json
+H:\.NET\Career180_Tasks\Day7_afterHold\FTP client Project\FTP client Project\obj\Debug\net8.0\FTP client Project.dll
+H:\.NET\Career180_Tasks\Day7_afterHold\FTP client Project\FTP client Project\obj\Debug\net8.0\refint\FTP client Project.dll
+H:\.NET\Career180_Tasks\Day7_afterHold\FTP client Project\FTP client Project\obj\Debug\net8.0\FTP client Project.pdb
+H:\.NET\Career180_Tasks\Day7_afterHold\FTP client Project\FTP client Project\obj\Debug\net8.0\FTP client Project.genruntimeconfig.cache
+H:\.NET\Career180_Tasks\Day7_afterHold\FTP client Project\FTP client Project\obj\Debug\net8.0\ref\FTP client Project.dll

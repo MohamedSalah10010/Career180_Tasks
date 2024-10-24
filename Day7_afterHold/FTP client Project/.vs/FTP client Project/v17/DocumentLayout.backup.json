@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\.NET\\Career180_Tasks\\Day7_afterHold\\FTP client Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F239E5-F7AA-4129-9EE2-92462A2C039F}|FTP client Project\\FTP client Project.csproj|h:\\.net\\career180_tasks\\day7_afterhold\\ftp client project\\ftp client project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F239E5-F7AA-4129-9EE2-92462A2C039F}|FTP client Project\\FTP client Project.csproj|solutionrelative:ftp client project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F239E5-F7AA-4129-9EE2-92462A2C039F}|FTP client Project\\FTP client Project.csproj|h:\\.net\\career180_tasks\\day7_afterhold\\ftp client project\\ftp client project\\nic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F239E5-F7AA-4129-9EE2-92462A2C039F}|FTP client Project\\FTP client Project.csproj|solutionrelative:ftp client project\\nic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NIC.cs",
+              "DocumentMoniker": "H:\\.NET\\Career180_Tasks\\Day7_afterHold\\FTP client Project\\FTP client Project\\NIC.cs",
+              "RelativeDocumentMoniker": "FTP client Project\\NIC.cs",
+              "ToolTip": "H:\\.NET\\Career180_Tasks\\Day7_afterHold\\FTP client Project\\FTP client Project\\NIC.cs",
+              "RelativeToolTip": "FTP client Project\\NIC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T20:21:02.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\.NET\\Career180_Tasks\\Day7_afterHold\\FTP client Project\\FTP client Project\\Program.cs",
+              "RelativeDocumentMoniker": "FTP client Project\\Program.cs",
+              "ToolTip": "H:\\.NET\\Career180_Tasks\\Day7_afterHold\\FTP client Project\\FTP client Project\\Program.cs",
+              "RelativeToolTip": "FTP client Project\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T20:19:13.061Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
