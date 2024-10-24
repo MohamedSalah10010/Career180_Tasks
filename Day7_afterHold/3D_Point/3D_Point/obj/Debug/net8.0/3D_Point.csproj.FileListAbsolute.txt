@@ -1,0 +1,15 @@
+H:\.NET\Career180_Tasks\Day7_afterHold\3D_Point\3D_Point\bin\Debug\net8.0\3D_Point.exe
+H:\.NET\Career180_Tasks\Day7_afterHold\3D_Point\3D_Point\bin\Debug\net8.0\3D_Point.deps.json
+H:\.NET\Career180_Tasks\Day7_afterHold\3D_Point\3D_Point\bin\Debug\net8.0\3D_Point.runtimeconfig.json
+H:\.NET\Career180_Tasks\Day7_afterHold\3D_Point\3D_Point\bin\Debug\net8.0\3D_Point.dll
+H:\.NET\Career180_Tasks\Day7_afterHold\3D_Point\3D_Point\bin\Debug\net8.0\3D_Point.pdb
+H:\.NET\Career180_Tasks\Day7_afterHold\3D_Point\3D_Point\obj\Debug\net8.0\3D_Point.GeneratedMSBuildEditorConfig.editorconfig
+H:\.NET\Career180_Tasks\Day7_afterHold\3D_Point\3D_Point\obj\Debug\net8.0\3D_Point.AssemblyInfoInputs.cache
+H:\.NET\Career180_Tasks\Day7_afterHold\3D_Point\3D_Point\obj\Debug\net8.0\3D_Point.AssemblyInfo.cs
+H:\.NET\Career180_Tasks\Day7_afterHold\3D_Point\3D_Point\obj\Debug\net8.0\3D_Point.csproj.CoreCompileInputs.cache
+H:\.NET\Career180_Tasks\Day7_afterHold\3D_Point\3D_Point\obj\Debug\net8.0\3D_Point.sourcelink.json
+H:\.NET\Career180_Tasks\Day7_afterHold\3D_Point\3D_Point\obj\Debug\net8.0\3D_Point.dll
+H:\.NET\Career180_Tasks\Day7_afterHold\3D_Point\3D_Point\obj\Debug\net8.0\refint\3D_Point.dll
+H:\.NET\Career180_Tasks\Day7_afterHold\3D_Point\3D_Point\obj\Debug\net8.0\3D_Point.pdb
+H:\.NET\Career180_Tasks\Day7_afterHold\3D_Point\3D_Point\obj\Debug\net8.0\3D_Point.genruntimeconfig.cache
+H:\.NET\Career180_Tasks\Day7_afterHold\3D_Point\3D_Point\obj\Debug\net8.0\ref\3D_Point.dll
