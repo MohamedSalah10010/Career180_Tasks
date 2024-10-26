@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\.NET\\Career180_Tasks\\Day8_LINQ\\LINQ_Quereies\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFDACC3-98C8-42EB-8D86-84780220BD0D}|LINQ_Quereies\\LINQ_Quereies.csproj|h:\\.net\\career180_tasks\\day8_linq\\linq_quereies\\linq_quereies\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FFDACC3-98C8-42EB-8D86-84780220BD0D}|LINQ_Quereies\\LINQ_Quereies.csproj|solutionrelative:linq_quereies\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFDACC3-98C8-42EB-8D86-84780220BD0D}|LINQ_Quereies\\LINQ_Quereies.csproj|h:\\.net\\career180_tasks\\day8_linq\\linq_quereies\\linq_quereies\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FFDACC3-98C8-42EB-8D86-84780220BD0D}|LINQ_Quereies\\LINQ_Quereies.csproj|solutionrelative:linq_quereies\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFDACC3-98C8-42EB-8D86-84780220BD0D}|LINQ_Quereies\\LINQ_Quereies.csproj|h:\\.net\\career180_tasks\\day8_linq\\linq_quereies\\linq_quereies\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FFDACC3-98C8-42EB-8D86-84780220BD0D}|LINQ_Quereies\\LINQ_Quereies.csproj|solutionrelative:linq_quereies\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "H:\\.NET\\Career180_Tasks\\Day8_LINQ\\LINQ_Quereies\\LINQ_Quereies\\Student.cs",
+              "RelativeDocumentMoniker": "LINQ_Quereies\\Student.cs",
+              "ToolTip": "H:\\.NET\\Career180_Tasks\\Day8_LINQ\\LINQ_Quereies\\LINQ_Quereies\\Student.cs",
+              "RelativeToolTip": "LINQ_Quereies\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T17:50:59.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "H:\\.NET\\Career180_Tasks\\Day8_LINQ\\LINQ_Quereies\\LINQ_Quereies\\Subject.cs",
+              "RelativeDocumentMoniker": "LINQ_Quereies\\Subject.cs",
+              "ToolTip": "H:\\.NET\\Career180_Tasks\\Day8_LINQ\\LINQ_Quereies\\LINQ_Quereies\\Subject.cs",
+              "RelativeToolTip": "LINQ_Quereies\\Subject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T17:50:46.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\.NET\\Career180_Tasks\\Day8_LINQ\\LINQ_Quereies\\LINQ_Quereies\\Program.cs",
+              "RelativeDocumentMoniker": "LINQ_Quereies\\Program.cs",
+              "ToolTip": "H:\\.NET\\Career180_Tasks\\Day8_LINQ\\LINQ_Quereies\\LINQ_Quereies\\Program.cs*",
+              "RelativeToolTip": "LINQ_Quereies\\Program.cs*",
+              "ViewState": "AgIAACoAAACAAgAAAIAewDQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T17:05:26.118Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

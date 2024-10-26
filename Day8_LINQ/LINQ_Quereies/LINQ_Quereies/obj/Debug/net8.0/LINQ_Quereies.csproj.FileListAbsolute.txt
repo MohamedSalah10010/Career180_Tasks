@@ -1,0 +1,15 @@
+H:\.NET\Career180_Tasks\Day8_LINQ\LINQ_Quereies\LINQ_Quereies\bin\Debug\net8.0\LINQ_Quereies.exe
+H:\.NET\Career180_Tasks\Day8_LINQ\LINQ_Quereies\LINQ_Quereies\bin\Debug\net8.0\LINQ_Quereies.deps.json
+H:\.NET\Career180_Tasks\Day8_LINQ\LINQ_Quereies\LINQ_Quereies\bin\Debug\net8.0\LINQ_Quereies.runtimeconfig.json
+H:\.NET\Career180_Tasks\Day8_LINQ\LINQ_Quereies\LINQ_Quereies\bin\Debug\net8.0\LINQ_Quereies.dll
+H:\.NET\Career180_Tasks\Day8_LINQ\LINQ_Quereies\LINQ_Quereies\bin\Debug\net8.0\LINQ_Quereies.pdb
+H:\.NET\Career180_Tasks\Day8_LINQ\LINQ_Quereies\LINQ_Quereies\obj\Debug\net8.0\LINQ_Quereies.GeneratedMSBuildEditorConfig.editorconfig
+H:\.NET\Career180_Tasks\Day8_LINQ\LINQ_Quereies\LINQ_Quereies\obj\Debug\net8.0\LINQ_Quereies.AssemblyInfoInputs.cache
+H:\.NET\Career180_Tasks\Day8_LINQ\LINQ_Quereies\LINQ_Quereies\obj\Debug\net8.0\LINQ_Quereies.AssemblyInfo.cs
+H:\.NET\Career180_Tasks\Day8_LINQ\LINQ_Quereies\LINQ_Quereies\obj\Debug\net8.0\LINQ_Quereies.csproj.CoreCompileInputs.cache
+H:\.NET\Career180_Tasks\Day8_LINQ\LINQ_Quereies\LINQ_Quereies\obj\Debug\net8.0\LINQ_Quereies.sourcelink.json
+H:\.NET\Career180_Tasks\Day8_LINQ\LINQ_Quereies\LINQ_Quereies\obj\Debug\net8.0\LINQ_Quereies.dll
+H:\.NET\Career180_Tasks\Day8_LINQ\LINQ_Quereies\LINQ_Quereies\obj\Debug\net8.0\refint\LINQ_Quereies.dll
+H:\.NET\Career180_Tasks\Day8_LINQ\LINQ_Quereies\LINQ_Quereies\obj\Debug\net8.0\LINQ_Quereies.pdb
+H:\.NET\Career180_Tasks\Day8_LINQ\LINQ_Quereies\LINQ_Quereies\obj\Debug\net8.0\LINQ_Quereies.genruntimeconfig.cache
+H:\.NET\Career180_Tasks\Day8_LINQ\LINQ_Quereies\LINQ_Quereies\obj\Debug\net8.0\ref\LINQ_Quereies.dll
