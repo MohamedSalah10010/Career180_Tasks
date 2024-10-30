@@ -154,6 +154,7 @@
             update_track.TabIndex = 12;
             update_track.Text = "Update Track";
             update_track.UseVisualStyleBackColor = true;
+            update_track.Click += update_track_Click;
             // 
             // Add_track
             // 
@@ -163,6 +164,7 @@
             Add_track.TabIndex = 13;
             Add_track.Text = "Add ";
             Add_track.UseVisualStyleBackColor = true;
+            Add_track.Click += Add_track_Click;
             // 
             // Delete_track
             // 
@@ -172,6 +174,7 @@
             Delete_track.TabIndex = 14;
             Delete_track.Text = "Delete";
             Delete_track.UseVisualStyleBackColor = true;
+            Delete_track.Click += Delete_track_Click;
             // 
             // Update_student
             // 
