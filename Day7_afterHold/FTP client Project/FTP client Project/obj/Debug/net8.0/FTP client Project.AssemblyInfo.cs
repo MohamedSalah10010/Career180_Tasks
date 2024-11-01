@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FTP client Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4df8594a09c1a03229ab1e4641d1b7425c28fdbe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26b0bd3b21a9acf75789fc7f76fc20c8dcb8ab2e")]
 [assembly: System.Reflection.AssemblyProductAttribute("FTP client Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FTP client Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

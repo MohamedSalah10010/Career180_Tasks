@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Day10_CodeFirstDataBase",
+    "\\Day10_CodeFirstDataBase\\CodeFirstDataBase",
+    "\\Day10_CodeFirstDataBase\\CodeFirstDataBase\\CodeFirstDataBase"
   ],
-  "SelectedNode": "\\3D_Point.sln",
   "PreviewInSolutionExplorer": false
 }
