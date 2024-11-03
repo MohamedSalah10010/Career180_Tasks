@@ -1,0 +1,29 @@
+[
+ {
+  "id"= 1,
+  "name"= "dotnet",
+  "duration"= 10,
+  "status" = false
+ },
+ 
+{
+  "id"= 2,
+  "name"= "c#",
+  "duration"= 8,
+  "status" = true
+ },
+ {
+  "id"= 3,
+  "name"= "java",
+  "duration"= 11,
+  "status" = true
+ },
+ {
+  "id"= 4,
+  "name"= "spring",
+  "duration"= 15,
+  "status" = false
+ }
+
+ ]
+
