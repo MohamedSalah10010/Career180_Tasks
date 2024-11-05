@@ -1,0 +1,97 @@
+[
+  {
+    "ContainingType": "List_modification_based_on_WEBAPI.Controllers.newsController",
+    "Method": "getall",
+    "RelativePath": "api/news",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "List_modification_based_on_WEBAPI.Controllers.newsController",
+    "Method": "add",
+    "RelativePath": "api/news",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "news_obj",
+        "Type": "List_modification_based_on_WEBAPI.Models.news",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "List_modification_based_on_WEBAPI.Controllers.newsController",
+    "Method": "getbyauthor",
+    "RelativePath": "api/news/author{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "List_modification_based_on_WEBAPI.Controllers.newsController",
+    "Method": "edit",
+    "RelativePath": "api/news/id{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "news_obj",
+        "Type": "List_modification_based_on_WEBAPI.Models.news",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "List_modification_based_on_WEBAPI.Controllers.newsController",
+    "Method": "delete",
+    "RelativePath": "api/news/id{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "List_modification_based_on_WEBAPI.Controllers.newsController",
+    "Method": "getbytitle",
+    "RelativePath": "api/news/title{title}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

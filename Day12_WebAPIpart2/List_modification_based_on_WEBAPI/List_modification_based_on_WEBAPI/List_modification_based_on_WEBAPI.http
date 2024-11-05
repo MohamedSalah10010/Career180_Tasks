@@ -1,0 +1,6 @@
+@List_modification_based_on_WEBAPI_HostAddress = http://localhost:5228
+
+GET {{List_modification_based_on_WEBAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
