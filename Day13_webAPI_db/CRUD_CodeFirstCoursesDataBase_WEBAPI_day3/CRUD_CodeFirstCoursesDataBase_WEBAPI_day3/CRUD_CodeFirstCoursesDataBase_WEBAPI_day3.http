@@ -1,0 +1,6 @@
+@CRUD_CodeFirstCoursesDataBase_WEBAPI_day3_HostAddress = http://localhost:5081
+
+GET {{CRUD_CodeFirstCoursesDataBase_WEBAPI_day3_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

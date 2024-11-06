@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CRUD_CodeFirstCoursesDataBase_WEBAPI_day3.props" />
+</Project>
