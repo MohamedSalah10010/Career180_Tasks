@@ -65,6 +65,8 @@ namespace List_modification_based_on_WEBAPI.Controllers
             //news news_obj = news_list.FirstOrDefault(n => string.Equals(n.title.Replace(" ", ""), title.Replace(" ", ""), StringComparison.OrdinalIgnoreCase)  );
             //string k = title;
             //Console.WriteLine(k.Replace(" ", "").Insert(0, "title").ToUpper());
+            Console.WriteLine( "get by title function is being called" );
+
             if (news_obj == null) return NotFound();
             else return Ok(news_obj);
         }
@@ -74,6 +76,9 @@ namespace List_modification_based_on_WEBAPI.Controllers
         public IActionResult getbyauthor(string name)
         {
             news news_obj = news_list.Where(n => n.Auth_name.ToUpper().Replace(" ","") == name.ToUpper()).FirstOrDefault();
+            Console.WriteLine( "get by author is being called" );
+
+
             if (news_obj == null)
                 return NotFound();//404
             else
@@ -84,6 +89,8 @@ namespace List_modification_based_on_WEBAPI.Controllers
         [HttpPost]
         public IActionResult add(news news_obj)
         {
+            Console.WriteLine("add function is being called");
+
             if (news_obj == null) return BadRequest();
             news_list.Add(news_obj);
             return Created();
@@ -92,6 +99,8 @@ namespace List_modification_based_on_WEBAPI.Controllers
         [HttpPut("id{id}")]
         public IActionResult edit(int id, news news_obj)
         {
+            Console.WriteLine("edit  function is being called");
+
             if (news_obj == null) return BadRequest();
             news news_obj1 = news_list.Where(n => n.id == id).FirstOrDefault();
             if (news_obj1 == null) return NotFound();
@@ -108,6 +117,8 @@ namespace List_modification_based_on_WEBAPI.Controllers
         [HttpDelete("id{id}")]
         public IActionResult delete(int id)
         {
+            Console.WriteLine("delete function is being called");
+
             news news_obj = news_list.Where(n => n.id == id).FirstOrDefault();
             if (news_obj == null) return NotFound();
             news_list.Remove(news_obj);
