@@ -167,31 +167,9 @@ namespace Online_Shopping.Controllers
             if (product == null) return NotFound();
             if (id != product.id) return BadRequest();
 
-            var existingEntity = product;
-            if (existingEntity != null)
-            {
-                var properties = typeof(Product).GetProperties();
-
-                foreach (var property in properties)
-                {
-                    if (property.Name == "id") continue;
-                    var newValue = property.GetValue(product);
-                    if (newValue != default) // Only update non-null values
-                    {
-
-                        // Set the value on the existing entity
-                        property.SetValue(existingEntity, newValue);
-
-                        // Mark the specific property as modified
-                        prodRepo.db.Entry(existingEntity).Property(property.Name).IsModified = true;
-                    }
-                }
-            }
-
-
             if (ModelState.IsValid)
             {
-                //prodRepo.update(product);
+                prodRepo.update(product);
                 productDTO prodDTO = new productDTO()
                 {
                     ProductId = product.id,
@@ -207,9 +185,6 @@ namespace Online_Shopping.Controllers
             }
             else return BadRequest(ModelState);
             
-               
-          
-
         }
 
     }

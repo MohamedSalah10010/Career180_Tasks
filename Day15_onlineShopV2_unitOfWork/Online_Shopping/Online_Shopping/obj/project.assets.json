@@ -4611,9 +4611,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\.NET\\Career180_Tasks\\Day15_onlineShopV2_unitOfWork\\Online_Shopping\\Online_Shopping\\Online_Shopping.csproj",
-      "projectName": "Online_Shopping",
-      "projectPath": "H:\\.NET\\Career180_Tasks\\Day15_onlineShopV2_unitOfWork\\Online_Shopping\\Online_Shopping\\Online_Shopping.csproj",
+      "projectUniqueName": "H:\\.NET\\Career180_Tasks\\Day15_onlineShopV2_unitOfWork\\Online_Shopping\\Online_Shopping\\Online_Shopping_v2.csproj",
+      "projectName": "Online_Shopping_v2",
+      "projectPath": "H:\\.NET\\Career180_Tasks\\Day15_onlineShopV2_unitOfWork\\Online_Shopping\\Online_Shopping\\Online_Shopping_v2.csproj",
       "packagesPath": "C:\\Users\\abosa\\.nuget\\packages\\",
       "outputPath": "H:\\.NET\\Career180_Tasks\\Day15_onlineShopV2_unitOfWork\\Online_Shopping\\Online_Shopping\\obj\\",
       "projectStyle": "PackageReference",

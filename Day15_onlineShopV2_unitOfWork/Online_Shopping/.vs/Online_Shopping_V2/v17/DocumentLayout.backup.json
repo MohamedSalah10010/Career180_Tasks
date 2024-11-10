@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\.NET\\Career180_Tasks\\Day15_onlineShopV2_unitOfWork\\Online_Shopping\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE28B436-C3B7-4468-B19F-C7D55462D9BC}|Online_Shopping\\Online_Shopping_v2.csproj|h:\\.net\\career180_tasks\\day15_onlineshopv2_unitofwork\\online_shopping\\online_shopping\\repos\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE28B436-C3B7-4468-B19F-C7D55462D9BC}|Online_Shopping\\Online_Shopping_v2.csproj|solutionrelative:online_shopping\\repos\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE28B436-C3B7-4468-B19F-C7D55462D9BC}|Online_Shopping\\Online_Shopping_v2.csproj|h:\\.net\\career180_tasks\\day15_onlineshopv2_unitofwork\\online_shopping\\online_shopping\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE28B436-C3B7-4468-B19F-C7D55462D9BC}|Online_Shopping\\Online_Shopping_v2.csproj|solutionrelative:online_shopping\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE28B436-C3B7-4468-B19F-C7D55462D9BC}|Online_Shopping\\Online_Shopping_v2.csproj|h:\\.net\\career180_tasks\\day15_onlineshopv2_unitofwork\\online_shopping\\online_shopping\\repos\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE28B436-C3B7-4468-B19F-C7D55462D9BC}|Online_Shopping\\Online_Shopping_v2.csproj|solutionrelative:online_shopping\\repos\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE28B436-C3B7-4468-B19F-C7D55462D9BC}|Online_Shopping\\Online_Shopping_v2.csproj|h:\\.net\\career180_tasks\\day15_onlineshopv2_unitofwork\\online_shopping\\online_shopping\\models\\catalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE28B436-C3B7-4468-B19F-C7D55462D9BC}|Online_Shopping\\Online_Shopping_v2.csproj|solutionrelative:online_shopping\\models\\catalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE28B436-C3B7-4468-B19F-C7D55462D9BC}|Online_Shopping\\Online_Shopping_v2.csproj|h:\\.net\\career180_tasks\\day15_onlineshopv2_unitofwork\\online_shopping\\online_shopping\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE28B436-C3B7-4468-B19F-C7D55462D9BC}|Online_Shopping\\Online_Shopping_v2.csproj|solutionrelative:online_shopping\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Catalog.cs",
+              "DocumentMoniker": "H:\\.NET\\Career180_Tasks\\Day15_onlineShopV2_unitOfWork\\Online_Shopping\\Online_Shopping\\Models\\Catalog.cs",
+              "RelativeDocumentMoniker": "Online_Shopping\\Models\\Catalog.cs",
+              "ToolTip": "H:\\.NET\\Career180_Tasks\\Day15_onlineShopV2_unitOfWork\\Online_Shopping\\Online_Shopping\\Models\\Catalog.cs",
+              "RelativeToolTip": "Online_Shopping\\Models\\Catalog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T22:58:29.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "H:\\.NET\\Career180_Tasks\\Day15_onlineShopV2_unitOfWork\\Online_Shopping\\Online_Shopping\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Online_Shopping\\Models\\Product.cs",
+              "ToolTip": "H:\\.NET\\Career180_Tasks\\Day15_onlineShopV2_unitOfWork\\Online_Shopping\\Online_Shopping\\Models\\Product.cs",
+              "RelativeToolTip": "Online_Shopping\\Models\\Product.cs",
+              "ViewState": "AgIAAAcAAADAAwAAAEApwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T22:58:18.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "productController.cs",
+              "DocumentMoniker": "H:\\.NET\\Career180_Tasks\\Day15_onlineShopV2_unitOfWork\\Online_Shopping\\Online_Shopping\\Controllers\\productController.cs",
+              "RelativeDocumentMoniker": "Online_Shopping\\Controllers\\productController.cs",
+              "ToolTip": "H:\\.NET\\Career180_Tasks\\Day15_onlineShopV2_unitOfWork\\Online_Shopping\\Online_Shopping\\Controllers\\productController.cs",
+              "RelativeToolTip": "Online_Shopping\\Controllers\\productController.cs",
+              "ViewState": "AgIAAJ4AAAAAcGZmZmYFwLoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T22:38:56.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenericRepo.cs",
+              "DocumentMoniker": "H:\\.NET\\Career180_Tasks\\Day15_onlineShopV2_unitOfWork\\Online_Shopping\\Online_Shopping\\Repos\\GenericRepo.cs",
+              "RelativeDocumentMoniker": "Online_Shopping\\Repos\\GenericRepo.cs",
+              "ToolTip": "H:\\.NET\\Career180_Tasks\\Day15_onlineShopV2_unitOfWork\\Online_Shopping\\Online_Shopping\\Repos\\GenericRepo.cs",
+              "RelativeToolTip": "Online_Shopping\\Repos\\GenericRepo.cs",
+              "ViewState": "AgIAABUAAABANDMzM/MpwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T22:37:47.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "productRepo.cs",
+              "DocumentMoniker": "H:\\.NET\\Career180_Tasks\\Day15_onlineShopV2_unitOfWork\\Online_Shopping\\Online_Shopping\\Repos\\productRepo.cs",
+              "RelativeDocumentMoniker": "Online_Shopping\\Repos\\productRepo.cs",
+              "ToolTip": "H:\\.NET\\Career180_Tasks\\Day15_onlineShopV2_unitOfWork\\Online_Shopping\\Online_Shopping\\Repos\\productRepo.cs",
+              "RelativeToolTip": "Online_Shopping\\Repos\\productRepo.cs",
+              "ViewState": "AgIAAAYAAAAgMzMzM7MmwBUAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T22:37:18.624Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

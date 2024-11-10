@@ -5,31 +5,31 @@ namespace Online_Shopping.Repos
 {
     public class GenericRepo<genericEntity> where genericEntity : class
     {
-       public shopContext db;
+       protected shopContext db;
         public GenericRepo(shopContext db) { this.db = db; }
 
-        public List<genericEntity> selectAll() 
+        public virtual List<genericEntity> selectAll() 
         { 
             return db.Set<genericEntity>().ToList();
         }
 
-        public genericEntity selectById(int id)
+        public virtual genericEntity selectById(int id)
         {
             return db.Set<genericEntity>().Find(id);
         }
 
-        public void add(genericEntity entity)
+        public virtual void add(genericEntity entity)
         {
             db.Set<genericEntity>().Add(entity);
             //return entity;
         }
 
-        public void update(genericEntity entity) {
+        public virtual void update(genericEntity entity) {
 
             db.Entry(entity).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
            //return entity;   
         }
-        public void remove(int id) 
+        public virtual void remove(int id) 
         {
 
             var obj = db.Set<genericEntity>().Find(id);
@@ -37,7 +37,7 @@ namespace Online_Shopping.Repos
           
         }
 
-        public void save() 
+        public virtual void save() 
         { 
         
             db.SaveChanges();
