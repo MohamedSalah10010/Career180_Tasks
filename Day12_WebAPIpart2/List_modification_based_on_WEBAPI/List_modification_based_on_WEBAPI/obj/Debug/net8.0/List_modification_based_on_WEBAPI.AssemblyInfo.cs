@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("List_modification_based_on_WEBAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c36615bfd8ddf453580bdd3ba34f4d971d41d814")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c73b07167eb47cc345d480ce51af26b3a000a6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("List_modification_based_on_WEBAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("List_modification_based_on_WEBAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

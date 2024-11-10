@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "H:\\.NET\\Career180_Tasks\\Day10_CodeFirstDataBase\\CodeFirstDataBase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DECAB387-FC93-4CC5-91E3-A70D39C59EE4}|CodeFirstDataBase\\CodeFirstDataBase.csproj|h:\\.net\\career180_tasks\\day10_codefirstdatabase\\codefirstdatabase\\codefirstdatabase\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DECAB387-FC93-4CC5-91E3-A70D39C59EE4}|CodeFirstDataBase\\CodeFirstDataBase.csproj|solutionrelative:codefirstdatabase\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DECAB387-FC93-4CC5-91E3-A70D39C59EE4}|CodeFirstDataBase\\CodeFirstDataBase.csproj|h:\\.net\\career180_tasks\\day10_codefirstdatabase\\codefirstdatabase\\codefirstdatabase\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DECAB387-FC93-4CC5-91E3-A70D39C59EE4}|CodeFirstDataBase\\CodeFirstDataBase.csproj|solutionrelative:codefirstdatabase\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DECAB387-FC93-4CC5-91E3-A70D39C59EE4}|CodeFirstDataBase\\CodeFirstDataBase.csproj|h:\\.net\\career180_tasks\\day10_codefirstdatabase\\codefirstdatabase\\codefirstdatabase\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DECAB387-FC93-4CC5-91E3-A70D39C59EE4}|CodeFirstDataBase\\CodeFirstDataBase.csproj|solutionrelative:codefirstdatabase\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DECAB387-FC93-4CC5-91E3-A70D39C59EE4}|CodeFirstDataBase\\CodeFirstDataBase.csproj|h:\\.net\\career180_tasks\\day10_codefirstdatabase\\codefirstdatabase\\codefirstdatabase\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,7 +25,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -41,7 +41,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "H:\\.NET\\Career180_Tasks\\Day10_CodeFirstDataBase\\CodeFirstDataBase\\CodeFirstDataBase\\Form1.cs",
               "RelativeDocumentMoniker": "CodeFirstDataBase\\Form1.cs",
@@ -66,15 +66,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "H:\\.NET\\Career180_Tasks\\Day10_CodeFirstDataBase\\CodeFirstDataBase\\CodeFirstDataBase\\Form1.cs",
               "RelativeDocumentMoniker": "CodeFirstDataBase\\Form1.cs",
               "ToolTip": "H:\\.NET\\Career180_Tasks\\Day10_CodeFirstDataBase\\CodeFirstDataBase\\CodeFirstDataBase\\Form1.cs",
               "RelativeToolTip": "CodeFirstDataBase\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALcBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAgMzMzM5M4wLcBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T20:25:55.057Z"
+              "WhenOpened": "2024-10-31T20:25:55.057Z",
+              "EditorCaption": ""
             }
           ]
         }

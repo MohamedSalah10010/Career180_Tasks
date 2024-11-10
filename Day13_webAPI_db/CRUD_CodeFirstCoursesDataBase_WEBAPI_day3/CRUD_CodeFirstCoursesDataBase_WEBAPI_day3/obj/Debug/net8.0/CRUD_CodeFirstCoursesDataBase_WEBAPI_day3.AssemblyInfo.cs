@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUD_CodeFirstCoursesDataBase_WEBAPI_day3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+272202bbdf7bec65f525b7b522152850b3498e8d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c73b07167eb47cc345d480ce51af26b3a000a6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUD_CodeFirstCoursesDataBase_WEBAPI_day3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUD_CodeFirstCoursesDataBase_WEBAPI_day3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

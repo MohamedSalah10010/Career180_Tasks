@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Day13_webAPI_db",
+    "\\Day13_webAPI_db\\CRUD_CodeFirstCoursesDataBase_WEBAPI_day3",
+    "\\Day13_webAPI_db\\CRUD_CodeFirstCoursesDataBase_WEBAPI_day3\\CRUD_CodeFirstCoursesDataBase_WEBAPI_day3",
+    "\\Day13_webAPI_db\\CRUD_CodeFirstCoursesDataBase_WEBAPI_day3\\CRUD_CodeFirstCoursesDataBase_WEBAPI_day3\\Controllers"
   ],
-  "SelectedNode": "\\3D_Point.sln",
+  "SelectedNode": "\\Day13_webAPI_db\\CRUD_CodeFirstCoursesDataBase_WEBAPI_day3\\CRUD_CodeFirstCoursesDataBase_WEBAPI_day3\\Controllers\\coursesController.cs",
   "PreviewInSolutionExplorer": false
 }
