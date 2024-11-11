@@ -85,37 +85,28 @@
         "IsRequired": true
       },
       {
-        "Name": "ProductId",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
+        "Name": "product",
+        "Type": "Online_Shopping.Models.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Online_Shopping.Controllers.productController",
+    "Method": "editProductPhoto",
+    "RelativePath": "api/product/editphoto/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Name": "ProductName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "ProductQuantity",
+        "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       },
       {
-        "Name": "ProductPrice",
-        "Type": "System.Decimal",
-        "IsRequired": false
-      },
-      {
-        "Name": "ProductDescription",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "ProductCategoryId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "ProductPhoto",
+        "Name": "photo",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
       }

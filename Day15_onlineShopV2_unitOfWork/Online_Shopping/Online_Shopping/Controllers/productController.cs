@@ -183,63 +183,96 @@ namespace Online_Shopping.Controllers
             }
         }
 
-        [HttpPut("{id}")]
-        public IActionResult editProduct(int id,[FromForm] addProductDTO product)
+        [HttpPut("editphoto/{id}")]
+        public IActionResult editProductPhoto(int id ,IFormFile photo)
         {
-       
+            Product product = unit.ProdRepo.selectById(id);
             if (product == null) return NotFound();
-            if (id != product.ProductId) return BadRequest();
+            if (id != product.id) return BadRequest();
 
             if (ModelState.IsValid)
             {
                 string finalpath;
                 FileStream str=null;
 
-                if (product.ProductPhoto != null)
+                if (photo != null)
                 {
                     string path = Path.Combine(Directory.GetCurrentDirectory(), "uploads/");
-                    finalpath = Path.Combine(path, product.ProductPhoto.FileName);
+                    finalpath = Path.Combine(path, photo.FileName);
                     str = new FileStream(finalpath, FileMode.Create);
                 }
                 else 
                 {
                     finalpath = null; 
                 }
-                Product prod = new Product()
-                {
+                //Product prod = new Product()
+                //{
 
-                    id = id,
-                    name = product.ProductName,
-                    price = product.ProductPrice,
-                    desc = product.ProductDescription,
-                    amount = product.ProductQuantity,
-                    photoPath = finalpath,
-                    cat_id = product.ProductCategoryId
+                //    id = id,
+                //    name = product.ProductName,
+                //    price = product.ProductPrice,
+                //    desc = product.ProductDescription,
+                //    amount = product.ProductQuantity,
+                //    photoPath = finalpath,
+                //    cat_id = product.ProductCategoryId
 
-                };
+                //};
 
-                
+                product.photoPath = finalpath;
                 productDTO prodDTO = new productDTO()
                 {
-                    ProductId = prod.id,
-                    ProductName = prod.name,
-                    ProductDescription = prod.desc,
-                    ProductCategoryName = unit.CataRepo.selectName(prod.cat_id),
-                    ProductPrice = prod.price,
-                    ProductQuantity = prod.amount,
-                    ProductPhotoPath = prod.photoPath
+                    ProductId = product.id,
+                    ProductName = product.name,
+                    ProductDescription = product.desc,
+                    ProductCategoryName = unit.CataRepo.selectName(product.cat_id),
+                    ProductPrice = product.price,
+                    ProductQuantity = product.amount,
+                    ProductPhotoPath = finalpath
                 };
 
-                product.ProductPhoto.CopyTo(str);//upload photo to folder"",
+                photo.CopyTo(str);//upload photo to folder"",
 
-                unit.ProdRepo.update(prod);
+                unit.ProdRepo.update(product);
                 unit.Save();
 
-                return CreatedAtAction("selectProductById", new { id = prod.id},prodDTO);
+                return CreatedAtAction("selectProductById", new { id = product.id},prodDTO);
             }
             else return BadRequest(ModelState);
             
         }
 
+        [HttpPut("{id}")]
+        public IActionResult editProduct(int id, Product product)
+        {
+            if (product == null) return NotFound();
+            if (id != product.id) return BadRequest();
+
+            if (ModelState.IsValid)
+            {
+                productDTO prodDTO = new productDTO()
+                {
+                    ProductId = product.id,
+                    ProductName = product.name,
+                    ProductDescription = product.desc,
+                    ProductCategoryName = unit.CataRepo.selectName(product.cat_id),
+                    ProductPrice = product.price,
+                    ProductQuantity = product.amount,
+                    ProductPhotoPath = product.photoPath
+                };
+
+
+
+                unit.ProdRepo.update(product);
+                unit.Save();
+
+                return CreatedAtAction("selectProductById", new { id = product.id }, prodDTO);
+            }
+            else return BadRequest(ModelState);
+
+        }
+
+
+
     }
 }
+    
