@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Online_Shopping.Repos;
 using Online_Shopping.Models;
+using Online_Shopping_v2.UnitOfWork;
 
 namespace Online_Shopping
 {
@@ -19,9 +20,10 @@ namespace Online_Shopping
             builder.Services.AddSwaggerGen();
 
             builder.Services.AddDbContext<shopContext>(op => op.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("shopConnection")));
-            builder.Services.AddScoped<productRepo>();
-            builder.Services.AddScoped<catalogRepo>();
+            //builder.Services.AddScoped<productRepo>();
+            //builder.Services.AddScoped<catalogRepo>();
             //builder.Services.AddScoped<GenericRepo>();
+            builder.Services.AddScoped<UnitWork>();
 
             var app = builder.Build();
 

@@ -11,7 +11,7 @@
         public string ProductDescription { get; set; }
         public string ProductCategoryName { get; set; }
 
-        public IFormFile ProductPhoto { get; set; }
-       
+        public string? ProductPhotoPath { get; set; }
+
     }
 }

@@ -14,8 +14,10 @@ namespace Online_Shopping.Models
         [MaxLength(150)]
         public string? desc { get; set; }
         public int amount { get; set; }
-
-        public string? photo { get; set; }
+        
+        public string? photoPath { get; set; }
+        //[NotMapped]
+        //public IFormFile Photo { get; set; }
 
         [ForeignKey("catalog")]
         public int cat_id { get; set; }
