@@ -235,9 +235,7 @@
       {
         "Type": "System.Collections.Generic.List\u00601[[Online_Shopping.DTOs.productDTO, Online_Shopping_v2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
+          "application/json"
         ],
         "StatusCode": 200
       },

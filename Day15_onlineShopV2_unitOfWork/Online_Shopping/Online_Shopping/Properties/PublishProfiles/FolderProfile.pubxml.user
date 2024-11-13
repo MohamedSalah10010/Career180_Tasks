@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\inetpub\wwwroot\Online_shop_API</_PublishTargetUrl>
-    <History>True|2024-11-13T18:55:32.7113565Z||;</History>
+    <History>True|2024-11-13T21:06:42.1400716Z||;True|2024-11-13T22:20:14.1366452+02:00||;True|2024-11-13T22:15:23.6391830+02:00||;False|2024-11-13T22:14:37.9046365+02:00||;True|2024-11-13T20:55:32.7113565+02:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

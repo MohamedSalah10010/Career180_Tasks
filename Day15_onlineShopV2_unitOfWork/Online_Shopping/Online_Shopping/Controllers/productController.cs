@@ -8,6 +8,7 @@ using Online_Shopping_v2.DTOs;
 using Online_Shopping_v2.UnitOfWork;
 using Swashbuckle.AspNetCore.Annotations;
 using System.IO;
+using System;
 using System.Security.Principal;
 
 namespace Online_Shopping.Controllers
@@ -32,7 +33,7 @@ namespace Online_Shopping.Controllers
         [SwaggerResponse(200, "Successfully retrieved the list of products", typeof(List<productDTO>))]
         [SwaggerResponse(404, "No products found")]
         [Produces("application/json")]
-        [Consumes("application/json")]
+        //[Consumes("application/json")]
 
         public IActionResult selectAllProduct() {
             //Console.WriteLine("selectALLLLLLLLLLLLLLLLLLLLLL");
@@ -69,7 +70,7 @@ namespace Online_Shopping.Controllers
         [SwaggerResponse(200, "Successfully retrieved the product", typeof(productDTO))]
         [SwaggerResponse(404, "Product not found")]
         [Produces("application/json")]
-        [Consumes("application/json")]
+        //[Consumes("application/json")]
 
         public IActionResult selectProductById(int id)
         {
@@ -101,6 +102,8 @@ namespace Online_Shopping.Controllers
         )]
         [SwaggerResponse(200, "Successfully retrieved products by price", typeof(List<productDTO>))]
         [SwaggerResponse(404, "No products found with the specified price")]
+        [Produces("application/json")]
+
         public IActionResult selectProductByPrice(decimal price)
         {
             List<Product> products = unit.ProdRepo.selectByPrice(price);
@@ -138,7 +141,7 @@ namespace Online_Shopping.Controllers
         [SwaggerResponse(200, "Successfully deleted the product", typeof(productDTO))]
         [SwaggerResponse(404, "Product not found")]
         [Produces("application/json")]
-        [Consumes("application/json")]
+        //[Consumes("application/json")]
         public IActionResult deleteProduct(int id)
         {
 
@@ -157,6 +160,9 @@ namespace Online_Shopping.Controllers
                     ProductQuantity = product.amount
                 };
                 unit.ProdRepo.remove(id);
+                //FileStream del = new FileStream(product.photoPath, FileMode.Truncate);
+                if(System.IO.File.Exists(product.photoPath)) System.IO.File.Delete(product.photoPath);
+                
                 unit.Save();
                 //return Ok(selectAllProduct());
                 return Ok(prodDTO);
@@ -172,11 +178,11 @@ namespace Online_Shopping.Controllers
         [SwaggerResponse(201, "The product was created", typeof(productDTO))]
         [SwaggerResponse(400, "The product data is invalid")]
         [Produces("application/json")]
-        [Consumes("application/json")]
+        //[Consumes("application/json")]
         public IActionResult addProduct([FromForm] addProductDTO product)
         {
             //Console.WriteLine($"Received product: {product.name}, {product.price}, {product.cat_id}");
-
+            string finalpath = null;
             if (product == null)
             {
                 //Console.WriteLine( "product is null" );
@@ -184,11 +190,15 @@ namespace Online_Shopping.Controllers
             }
             else
             {
-                string path = Path.Combine(Directory.GetCurrentDirectory(), "uploads/");
-                string finalpath = Path.Combine(path, product.ProductPhoto.FileName);
-                FileStream str = new FileStream(finalpath, FileMode.Create);
-                product.ProductPhoto.CopyTo(str);//upload photo to folder"",
+                if (product.ProductPhoto != null)
+                {
+                    string path = Path.Combine(Directory.GetCurrentDirectory(), "uploads/");
+                    finalpath = Path.Combine(path, product.ProductPhoto.FileName);
+                    FileStream str  = new FileStream(finalpath, FileMode.Create);
+                    product.ProductPhoto.CopyTo(str);//upload photo to folder""
+                    str.Close();
 
+                }
                 //Console.WriteLine( "product isnot null" );
                 Product prod = new Product()
                 {
@@ -217,6 +227,8 @@ namespace Online_Shopping.Controllers
                 };
                 //Console.WriteLine(  "i'm being addded");
                 unit.ProdRepo.add(prod);
+                
+
                 //Console.WriteLine( "i have been added sucessfully" );
                 unit.Save();
                 return CreatedAtAction("selectProductById", new { id = prod.id},prodDTO);
@@ -235,7 +247,7 @@ namespace Online_Shopping.Controllers
         [SwaggerResponse(400, "Invalid product ID or data")]
         [SwaggerResponse(404, "Product not found")]
         [Produces("application/json")]
-        [Consumes("application/json")]
+        //[Consumes("application/json")]
         public IActionResult editProductPhoto(int id ,IFormFile photo)
         {
             Product product = unit.ProdRepo.selectById(id);
@@ -251,7 +263,10 @@ namespace Online_Shopping.Controllers
                 {
                     string path = Path.Combine(Directory.GetCurrentDirectory(), "uploads/");
                     finalpath = Path.Combine(path, photo.FileName);
+                    if (System.IO.File.Exists(product.photoPath)) System.IO.File.Delete(product.photoPath);
                     str = new FileStream(finalpath, FileMode.Create);
+                   
+
                 }
                 else 
                 {
@@ -283,7 +298,7 @@ namespace Online_Shopping.Controllers
                 };
 
                 photo.CopyTo(str);//upload photo to folder"",
-
+                str.Close();
                 unit.ProdRepo.update(product);
                 unit.Save();
 
