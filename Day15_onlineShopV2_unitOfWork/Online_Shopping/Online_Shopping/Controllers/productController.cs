@@ -97,9 +97,9 @@ namespace Online_Shopping.Controllers
 
         [HttpGet("price{price}")]
         [SwaggerOperation(
-    Summary = "Retrieves products by price",
-    Description = "Fetches a list of products that match the specified price"
-        )]
+        Summary = "Retrieves products by price",
+        Description = "Fetches a list of products that match the specified price"
+            )]
         [SwaggerResponse(200, "Successfully retrieved products by price", typeof(List<productDTO>))]
         [SwaggerResponse(404, "No products found with the specified price")]
         [Produces("application/json")]
@@ -164,7 +164,7 @@ namespace Online_Shopping.Controllers
                 if(System.IO.File.Exists(product.photoPath)) System.IO.File.Delete(product.photoPath);
                 
                 unit.Save();
-                //return Ok(selectAllProduct());
+               
                 return Ok(prodDTO);
             }
 
@@ -199,7 +199,6 @@ namespace Online_Shopping.Controllers
                     str.Close();
 
                 }
-                //Console.WriteLine( "product isnot null" );
                 Product prod = new Product()
                 {
                     name = product.ProductName,
