@@ -143,3 +143,4 @@ H:\.NET\Career180_Tasks\Day15_onlineShopV2_unitOfWork\Online_Shopping\Online_Sho
 H:\.NET\Career180_Tasks\Day15_onlineShopV2_unitOfWork\Online_Shopping\Online_Shopping\obj\Debug\net8.0\Online_Shopping_v2.pdb
 H:\.NET\Career180_Tasks\Day15_onlineShopV2_unitOfWork\Online_Shopping\Online_Shopping\obj\Debug\net8.0\Online_Shopping_v2.genruntimeconfig.cache
 H:\.NET\Career180_Tasks\Day15_onlineShopV2_unitOfWork\Online_Shopping\Online_Shopping\obj\Debug\net8.0\ref\Online_Shopping_v2.dll
+H:\.NET\Career180_Tasks\Day15_onlineShopV2_unitOfWork\Online_Shopping\Online_Shopping\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll

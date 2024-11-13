@@ -6,6 +6,7 @@ using Online_Shopping.Models;
 using Online_Shopping.Repos;
 using Online_Shopping_v2.DTOs;
 using Online_Shopping_v2.UnitOfWork;
+using Swashbuckle.AspNetCore.Annotations;
 using System.IO;
 using System.Security.Principal;
 
@@ -23,6 +24,16 @@ namespace Online_Shopping.Controllers
         }
 
         [HttpGet]
+        [SwaggerOperation
+            (
+            Summary = "Retrieves all products",
+            Description = "Fetches a list of all available products in the system"
+            )]
+        [SwaggerResponse(200, "Successfully retrieved the list of products", typeof(List<productDTO>))]
+        [SwaggerResponse(404, "No products found")]
+        [Produces("application/json")]
+        [Consumes("application/json")]
+
         public IActionResult selectAllProduct() {
             //Console.WriteLine("selectALLLLLLLLLLLLLLLLLLLLLL");
             List<Product> products = unit.ProdRepo.selectAll();
@@ -51,6 +62,15 @@ namespace Online_Shopping.Controllers
         }
 
         [HttpGet("id{id:int}")]
+        [SwaggerOperation(
+         Summary = "Retrieves a product by ID",
+         Description = "Fetches a single product's details based on its unique ID"
+            )]
+        [SwaggerResponse(200, "Successfully retrieved the product", typeof(productDTO))]
+        [SwaggerResponse(404, "Product not found")]
+        [Produces("application/json")]
+        [Consumes("application/json")]
+
         public IActionResult selectProductById(int id)
         {
             Product product = unit.ProdRepo.selectById(id);
@@ -75,6 +95,12 @@ namespace Online_Shopping.Controllers
         }
 
         [HttpGet("price{price}")]
+        [SwaggerOperation(
+    Summary = "Retrieves products by price",
+    Description = "Fetches a list of products that match the specified price"
+        )]
+        [SwaggerResponse(200, "Successfully retrieved products by price", typeof(List<productDTO>))]
+        [SwaggerResponse(404, "No products found with the specified price")]
         public IActionResult selectProductByPrice(decimal price)
         {
             List<Product> products = unit.ProdRepo.selectByPrice(price);
@@ -105,6 +131,14 @@ namespace Online_Shopping.Controllers
         }
 
         [HttpDelete("{id}")]
+        [SwaggerOperation(
+    Summary = "Deletes a product",
+    Description = "Deletes a product by its ID. Requires admin privileges"
+        )]
+        [SwaggerResponse(200, "Successfully deleted the product", typeof(productDTO))]
+        [SwaggerResponse(404, "Product not found")]
+        [Produces("application/json")]
+        [Consumes("application/json")]
         public IActionResult deleteProduct(int id)
         {
 
@@ -131,6 +165,14 @@ namespace Online_Shopping.Controllers
         }
         
         [HttpPost]
+        [SwaggerOperation(
+    Summary = "Creates a new product",
+    Description = "Adds a new product to the system. Requires admin privileges."
+)]
+        [SwaggerResponse(201, "The product was created", typeof(productDTO))]
+        [SwaggerResponse(400, "The product data is invalid")]
+        [Produces("application/json")]
+        [Consumes("application/json")]
         public IActionResult addProduct([FromForm] addProductDTO product)
         {
             //Console.WriteLine($"Received product: {product.name}, {product.price}, {product.cat_id}");
@@ -184,6 +226,16 @@ namespace Online_Shopping.Controllers
         }
 
         [HttpPut("editphoto/{id}")]
+        [SwaggerOperation
+            (
+            Summary = "Updates the product photo",
+            Description = "Updates the photo of an existing product by ID. Requires admin privileges."
+             )]
+        [SwaggerResponse(201, "Product photo updated successfully", typeof(productDTO))]
+        [SwaggerResponse(400, "Invalid product ID or data")]
+        [SwaggerResponse(404, "Product not found")]
+        [Produces("application/json")]
+        [Consumes("application/json")]
         public IActionResult editProductPhoto(int id ,IFormFile photo)
         {
             Product product = unit.ProdRepo.selectById(id);
@@ -242,6 +294,15 @@ namespace Online_Shopping.Controllers
         }
 
         [HttpPut("{id}")]
+        [SwaggerOperation(
+    Summary = "Updates product details",
+    Description = "Edits the details of an existing product by ID. Requires admin privileges."
+)]
+        [SwaggerResponse(201, "Product updated successfully", typeof(productDTO))]
+        [SwaggerResponse(400, "Invalid product ID or data")]
+        [SwaggerResponse(404, "Product not found")]
+        [Produces("application/json")]
+        [Consumes("application/json")]
         public IActionResult editProduct(int id, Product product)
         {
             if (product == null) return NotFound();
